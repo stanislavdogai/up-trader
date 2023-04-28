@@ -1,3 +1,5 @@
 from django.contrib import admin
+from mptt.admin import MPTTModelAdmin
+from webapp.models import MenuItem
 
-# Register your models here.
+admin.site.register(MenuItem, MPTTModelAdmin)
