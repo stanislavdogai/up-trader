@@ -1,24 +1,15 @@
 from django import template
-from menuapp.models import MenuItem, Menu
+from menuapp.models import MenuItem
 
 register = template.Library()
-
-
-@register.filter(name='show_top_menu')
-@register.inclusion_tag('menu.html', takes_context=True)
-def show_top_menu(context):
-    menu_items = Menu.objects.all()
-    return {
-        "menu_items": menu_items,
-    }
 
 
 @register.filter(name='show_menu')
 @register.inclusion_tag('menu_mptt.html', takes_context=True)
 def draw_menu(context, name_menu):
-    print(name_menu)
-    menu_items = MenuItem.objects.all()
-    print(context)
+    # menu_items = MenuItem.objects.filter(level=0).filter(name=name_menu)
+    menu_items = MenuItem.objects.filter(name=name_menu).filter(level=0).get_descendants()
+    print(menu_items)
     return {
-        "menu_items": menu_items,
+        "nodes": menu_items,
     }

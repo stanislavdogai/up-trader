@@ -3,8 +3,12 @@
 {% block master %}
     {% load common_tags %}
 
-    {% draw_menu 'main_menu' %}
+    <h2>Автомобили</h2>
 
+    {% draw_menu 'cars' %}
 
-    {% show_top_menu %}
+    <h2>Ноутбуки</h2>
+
+    {% draw_menu 'notebooks' %}
+
 {% endblock master %}

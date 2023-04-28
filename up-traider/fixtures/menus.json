@@ -1,0 +1,184 @@
+[
+{
+  "model": "menuapp.menuitem",
+  "pk": 5,
+  "fields": {
+    "name": "cars",
+    "parent": null,
+    "url": "#",
+    "lft": 1,
+    "rght": 18,
+    "tree_id": 1,
+    "level": 0
+  }
+},
+{
+  "model": "menuapp.menuitem",
+  "pk": 6,
+  "fields": {
+    "name": "Engines",
+    "parent": 5,
+    "url": "#",
+    "lft": 2,
+    "rght": 9,
+    "tree_id": 1,
+    "level": 1
+  }
+},
+{
+  "model": "menuapp.menuitem",
+  "pk": 7,
+  "fields": {
+    "name": "Diesel",
+    "parent": 6,
+    "url": "#",
+    "lft": 3,
+    "rght": 4,
+    "tree_id": 1,
+    "level": 2
+  }
+},
+{
+  "model": "menuapp.menuitem",
+  "pk": 8,
+  "fields": {
+    "name": "Gas",
+    "parent": 6,
+    "url": "#",
+    "lft": 7,
+    "rght": 8,
+    "tree_id": 1,
+    "level": 2
+  }
+},
+{
+  "model": "menuapp.menuitem",
+  "pk": 9,
+  "fields": {
+    "name": "Electric",
+    "parent": 6,
+    "url": "#",
+    "lft": 5,
+    "rght": 6,
+    "tree_id": 1,
+    "level": 2
+  }
+},
+{
+  "model": "menuapp.menuitem",
+  "pk": 10,
+  "fields": {
+    "name": "Models",
+    "parent": 5,
+    "url": "#",
+    "lft": 10,
+    "rght": 17,
+    "tree_id": 1,
+    "level": 1
+  }
+},
+{
+  "model": "menuapp.menuitem",
+  "pk": 11,
+  "fields": {
+    "name": "Mersedes",
+    "parent": 10,
+    "url": "#",
+    "lft": 13,
+    "rght": 14,
+    "tree_id": 1,
+    "level": 2
+  }
+},
+{
+  "model": "menuapp.menuitem",
+  "pk": 12,
+  "fields": {
+    "name": "BMW",
+    "parent": 10,
+    "url": "#",
+    "lft": 11,
+    "rght": 12,
+    "tree_id": 1,
+    "level": 2
+  }
+},
+{
+  "model": "menuapp.menuitem",
+  "pk": 13,
+  "fields": {
+    "name": "Toyota",
+    "parent": 10,
+    "url": "#",
+    "lft": 15,
+    "rght": 16,
+    "tree_id": 1,
+    "level": 2
+  }
+},
+{
+  "model": "menuapp.menuitem",
+  "pk": 14,
+  "fields": {
+    "name": "notebooks",
+    "parent": null,
+    "url": "#",
+    "lft": 1,
+    "rght": 10,
+    "tree_id": 2,
+    "level": 0
+  }
+},
+{
+  "model": "menuapp.menuitem",
+  "pk": 15,
+  "fields": {
+    "name": "Models",
+    "parent": 14,
+    "url": "#",
+    "lft": 2,
+    "rght": 9,
+    "tree_id": 2,
+    "level": 1
+  }
+},
+{
+  "model": "menuapp.menuitem",
+  "pk": 16,
+  "fields": {
+    "name": "Acer",
+    "parent": 15,
+    "url": "#",
+    "lft": 5,
+    "rght": 6,
+    "tree_id": 2,
+    "level": 2
+  }
+},
+{
+  "model": "menuapp.menuitem",
+  "pk": 17,
+  "fields": {
+    "name": "ASUS",
+    "parent": 15,
+    "url": "#",
+    "lft": 3,
+    "rght": 4,
+    "tree_id": 2,
+    "level": 2
+  }
+},
+{
+  "model": "menuapp.menuitem",
+  "pk": 18,
+  "fields": {
+    "name": "Apple",
+    "parent": 15,
+    "url": "#",
+    "lft": 7,
+    "rght": 8,
+    "tree_id": 2,
+    "level": 2
+  }
+}
+]
